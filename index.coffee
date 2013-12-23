@@ -11,7 +11,7 @@ usage = """
 
 Resets package.json dependencies using a pretty interactive process.
 
-Usage: packager [options]
+Usage: depz [options]
 """
 
 argv = optimist

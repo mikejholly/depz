@@ -19,7 +19,7 @@
 
   optimist = require("optimist");
 
-  usage = "\nResets package.json dependencies using a pretty interactive process.\n\nUsage: packager [options]";
+  usage = "\nResets package.json dependencies using a pretty interactive process.\n\nUsage: depz [options]";
 
   argv = optimist.usage(usage)["default"]("m", "~")["default"]("c", 1).alias("c", "clear").alias("m", "modifier").alias("y", "yes").alias("h", "help").describe("c", "Wipe all dependencies and devDependencies (start from scratch).").describe("m", "Which npm version prefix to add.").describe("y", "Assumes you want to add all node_modules to package.json.").boolean("c").argv;
 

@@ -2,7 +2,7 @@ A nice little tool for when you forget to `npm install --save`. It inspects your
 
 ## Usage
 
-```bash
+```
 Resets package.json dependencies using a pretty interactive process.
 
 Usage: packager [options]
@@ -15,7 +15,7 @@ Options:
 
 ## Example
 
-```bash
+```
 Which do you want to include in your package.json? Type y, n or dev (to add to devDependencies). Type explicit version number to override.
 
 prompt: async [0.2.9]:  (y)
