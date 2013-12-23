@@ -1,8 +1,12 @@
 {
-  "name": "packager",
-  "version": "0.0.1",
+  "name": "depz",
+  "version": "0.0.3",
   "description": "Set dependencies in package.json",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/mikejholly/deps.git"
+  },
   "dependencies": {
     "async": "~0.2.9",
     "colors": "~0.6.2",
@@ -21,7 +25,7 @@
     "node_modules"
   ],
   "bin": {
-    "depz": ".index.js"
+    "depz": "./index.js"
   },
   "author": "Mike Holly",
   "license": "BSD-2-Clause"
