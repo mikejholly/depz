@@ -1,6 +1,6 @@
 {
   "name": "depz",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Set dependencies in package.json",
   "main": "index.js",
   "repository": {
