@@ -1,0 +1,28 @@
+{
+  "name": "packager",
+  "version": "0.0.1",
+  "description": "Set dependencies in package.json",
+  "main": "index.js",
+  "dependencies": {
+    "async": "~0.2.9",
+    "colors": "~0.6.2",
+    "glob": "~3.2.7",
+    "optimist": "~0.6.0",
+    "prompt": "~0.2.12",
+    "underscore": "~1.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "package.json",
+    "dependencies",
+    "node_modules"
+  ],
+  "bin": {
+    "depz": ".index.js"
+  },
+  "author": "Mike Holly",
+  "license": "BSD-2-Clause"
+}
