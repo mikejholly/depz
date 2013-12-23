@@ -101,6 +101,10 @@
     } else {
       puts("\nWhich do you want to include in your package.json? Type y, n or dev (to add to devDependencies). Type explicit version number to override.\n");
       return prompt.get(prompts, function(err, input) {
+        if (err) {
+          puts("\n\nPrompt interrupted. Doing nothing.".yellow);
+          process.exit(1);
+        }
         return write(input, function(err) {
           if (!err) {
             return process.exit(0);

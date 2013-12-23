@@ -1,0 +1,153 @@
+{
+  "name": "depz",
+  "version": "0.0.7",
+  "dependencies": {
+    "async": {
+      "version": "0.2.9",
+      "from": "async@"
+    },
+    "colors": {
+      "version": "0.6.2",
+      "from": "colors@"
+    },
+    "glob": {
+      "version": "3.2.7",
+      "from": "glob@",
+      "dependencies": {
+        "minimatch": {
+          "version": "0.2.14",
+          "from": "minimatch@~0.2.11",
+          "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-0.2.14.tgz",
+          "dependencies": {
+            "lru-cache": {
+              "version": "2.5.0",
+              "from": "lru-cache@2"
+            },
+            "sigmund": {
+              "version": "1.0.0",
+              "from": "sigmund@~1.0.0"
+            }
+          }
+        },
+        "inherits": {
+          "version": "2.0.1",
+          "from": "inherits@2"
+        }
+      }
+    },
+    "optimist": {
+      "version": "0.6.0",
+      "from": "optimist@",
+      "dependencies": {
+        "wordwrap": {
+          "version": "0.0.2",
+          "from": "wordwrap@~0.0.2"
+        },
+        "minimist": {
+          "version": "0.0.5",
+          "from": "minimist@~0.0.1"
+        }
+      }
+    },
+    "prompt": {
+      "version": "0.2.12",
+      "from": "prompt@",
+      "resolved": "https://registry.npmjs.org/prompt/-/prompt-0.2.12.tgz",
+      "dependencies": {
+        "pkginfo": {
+          "version": "0.3.0",
+          "from": "pkginfo@0.x.x",
+          "resolved": "https://registry.npmjs.org/pkginfo/-/pkginfo-0.3.0.tgz"
+        },
+        "read": {
+          "version": "1.0.5",
+          "from": "read@1.0.x",
+          "resolved": "https://registry.npmjs.org/read/-/read-1.0.5.tgz",
+          "dependencies": {
+            "mute-stream": {
+              "version": "0.0.4",
+              "from": "mute-stream@~0.0.4",
+              "resolved": "https://registry.npmjs.org/mute-stream/-/mute-stream-0.0.4.tgz"
+            }
+          }
+        },
+        "revalidator": {
+          "version": "0.1.6",
+          "from": "revalidator@0.1.x",
+          "resolved": "https://registry.npmjs.org/revalidator/-/revalidator-0.1.6.tgz"
+        },
+        "utile": {
+          "version": "0.2.1",
+          "from": "utile@0.2.x",
+          "resolved": "https://registry.npmjs.org/utile/-/utile-0.2.1.tgz",
+          "dependencies": {
+            "async": {
+              "version": "0.2.9",
+              "from": "async@~0.2.9"
+            },
+            "deep-equal": {
+              "version": "0.1.2",
+              "from": "deep-equal@*",
+              "resolved": "https://registry.npmjs.org/deep-equal/-/deep-equal-0.1.2.tgz"
+            },
+            "i": {
+              "version": "0.3.2",
+              "from": "i@0.3.x",
+              "resolved": "https://registry.npmjs.org/i/-/i-0.3.2.tgz"
+            },
+            "mkdirp": {
+              "version": "0.3.5",
+              "from": "mkdirp@0.x.x"
+            },
+            "ncp": {
+              "version": "0.4.2",
+              "from": "ncp@0.4.x"
+            },
+            "rimraf": {
+              "version": "2.2.5",
+              "from": "rimraf@2.x.x"
+            }
+          }
+        },
+        "winston": {
+          "version": "0.6.2",
+          "from": "winston@0.6.x",
+          "resolved": "https://registry.npmjs.org/winston/-/winston-0.6.2.tgz",
+          "dependencies": {
+            "async": {
+              "version": "0.1.22",
+              "from": "async@0.1.x"
+            },
+            "cycle": {
+              "version": "1.0.3",
+              "from": "cycle@1.0.x",
+              "resolved": "https://registry.npmjs.org/cycle/-/cycle-1.0.3.tgz"
+            },
+            "eyes": {
+              "version": "0.1.8",
+              "from": "eyes@0.1.x",
+              "resolved": "https://registry.npmjs.org/eyes/-/eyes-0.1.8.tgz"
+            },
+            "pkginfo": {
+              "version": "0.2.3",
+              "from": "pkginfo@0.2.x"
+            },
+            "request": {
+              "version": "2.9.203",
+              "from": "request@2.9.x"
+            },
+            "stack-trace": {
+              "version": "0.0.7",
+              "from": "stack-trace@0.0.x",
+              "resolved": "https://registry.npmjs.org/stack-trace/-/stack-trace-0.0.7.tgz"
+            }
+          }
+        }
+      }
+    },
+    "underscore": {
+      "version": "1.5.2",
+      "from": "underscore@"
+    }
+  }
+}

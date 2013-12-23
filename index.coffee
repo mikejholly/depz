@@ -103,5 +103,8 @@ glob "node_modules/*/package.json", (err, files) ->
 
     # Prompt for input
     prompt.get prompts, (err, input) ->
+      if err
+        puts "\n\nPrompt interrupted. Doing nothing.".yellow
+        process.exit 1
       write input, (err) -> process.exit 0 unless err
 
